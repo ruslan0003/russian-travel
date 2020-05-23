@@ -1,0 +1,17 @@
+.cover__background {
+  background-image: linear-gradient(rgba(42,44,47,0.3),rgba(42,44,47,0.3)), url(../../../images/cover__background.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 740px;
+  max-width: 1184px;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cover__background:hover {
+  background-image: linear-gradient(rgba(42,44,47,0.8),rgba(42,44,47,0.8)), url(../../../images/cover__background.png);
+}
