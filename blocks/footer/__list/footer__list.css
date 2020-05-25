@@ -5,3 +5,14 @@
 .footer__list:first-child {
   margin: 0;
 }
+
+@media screen and (max-width: 375px) {
+  .footer__list {
+    display: block;
+    margin: 32px 0 0 0;
+  }
+
+  .footer__list:first-child {
+    margin: 0;
+  }
+}

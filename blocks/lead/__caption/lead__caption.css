@@ -3,9 +3,22 @@
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
-  line-height: 14px;
+  line-height: 140%;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: white;
-  margin: 8px auto 0 148px;
+  padding-left: 8px;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+  padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__caption {
+  padding-left: 16px;
+  }
 }

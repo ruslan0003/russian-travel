@@ -7,8 +7,32 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 28px 48px 0 48px;
+  min-height: 52px;
+  max-width: 1184px;
   margin: 0 auto;
   width: 100%;
   box-sizing: border-box;
+  padding: 28px 48px 56px 48px;
 }
+
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: 928px;
+    padding: 28px 48px 48px 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    max-width: 720px;
+    padding: 28px 24px 48px 24px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header {
+    max-width: 288px;
+    padding: 16px 0px 48px 0px;
+  }
+}
+

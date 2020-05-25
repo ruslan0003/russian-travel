@@ -7,8 +7,20 @@
   line-height: 28px;
   margin: 0 0 0 18px;
   display: inline;
+  text-align: right;
 }
 
 .header__lang-link:first-child {
   margin-left: 0;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 375px) {
+  .header__lang-link {
+  font-size: 18px;
+  line-height: 133%;
+  }
 }
