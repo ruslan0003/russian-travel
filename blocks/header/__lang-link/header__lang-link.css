@@ -8,6 +8,7 @@
   margin: 0 0 0 18px;
   display: inline;
   text-align: right;
+  transition: opacity 0.2s linear;
 }
 
 .header__lang-link:first-child {
