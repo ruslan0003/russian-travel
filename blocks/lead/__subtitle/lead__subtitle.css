@@ -7,7 +7,6 @@
   margin: 0 auto 64px auto;
   color: white;
   width: 100%;
-  box-sizing: border-box;
   max-width: 640px;
 }
 
@@ -17,9 +16,11 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
   .lead__subtitle {
-    margin: 0 auto 56px auto;
+    font-size: 24px;
+    padding: 0 16px;
+    box-sizing: border-box;
   }
 }
 
