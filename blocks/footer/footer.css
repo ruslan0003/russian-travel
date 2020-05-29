@@ -39,7 +39,7 @@
 @media screen and (max-width: 480px) {
   .footer {
     max-width: 480px;
-    padding: 92px 24px 24px 24px;
+    padding-top: 92px;
   }
 }
 
