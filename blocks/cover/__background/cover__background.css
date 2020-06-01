@@ -43,6 +43,7 @@
 @media screen and (max-width: 1024px) {
   .cover__background {
   min-height: 640px;
+  max-width: 1024px;
   }
 
   .cover__background:before {
@@ -53,6 +54,7 @@
 @media screen and (max-width: 768px) {
   .cover__background {
   min-height: 480px;
+  max-width: 768px;
   }
 
   .cover__background:before {
@@ -73,6 +75,7 @@
 @media screen and (max-width: 320px) {
   .cover__background {
   min-height: 200px;
+  max-width: 320px;
   }
 
   .cover__background:before {
